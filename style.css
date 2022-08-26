@@ -1,0 +1,48 @@
+.green_box {
+    width: 100%;
+    border: 10px solid lightgreen;
+    margin: 5px;
+    padding: 50px;
+    background-color: lightgray;
+}
+
+.green_box_heading, .green_box_desc {
+    text-align: center;
+}
+
+.green_box_desc {
+    padding-top: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue_box, .red_box {
+    width: 49%;
+    height: 65vh;
+}
+
+.red_box {
+    border: 10px solid red;
+}
+
+.blue_box {
+    border: 10px solid blue;
+}
+
+.purple_box {
+    border: 10px solid purple;
+    margin: 3px 10px;
+}
+
+.purple_box_heading_container {
+    padding: 10px;
+}
+
+.yellow_box {
+    border: 10px solid yellow;
+    margin: 8px 10px;
+    height: 87%;
+}
