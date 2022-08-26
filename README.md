@@ -1,1 +1,2 @@
-# sde0822_destinations
+# Destinations Page -v1- HTML & CSS
+[Mockup/ wireframe](https://drive.google.com/file/d/15Ra1M0SYIe2nusdcTK-D04kXFhPOo8PB/view)
