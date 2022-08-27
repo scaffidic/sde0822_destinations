@@ -30,7 +30,7 @@
     </div>
     <div class="container">
       <div class="red_box">
-        <div class="forms">
+        <form class="forms">
           <div class="mb-3 dest_form">
             <label for="formGroupExampleInput" class="form-label"
               >Destination name</label
@@ -40,6 +40,7 @@
               class="form-control"
               id="formGroupExampleInput"
               placeholder="Enter the name of the destination"
+              required
             />
           </div>
           <div class="mb-3 location_form">
@@ -51,6 +52,7 @@
               class="form-control"
               id="formGroupExampleInput"
               placeholder="Where is it located?"
+              required
             />
           </div>
           <div class="mb-3 photo_form">
@@ -72,10 +74,10 @@
             ></textarea>
           </div>
 
-          <button type="button" class="btn btn-primary input_btn">
+          <button type="submit" class="btn btn-primary input_btn">
             Add to list
           </button>
-        </div>
+        </form>
       </div>
       <div class="blue_box">
         <div class="purple_box">
