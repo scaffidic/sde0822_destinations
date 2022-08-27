@@ -1,6 +1,7 @@
 .green_box {
     width: 100%;
     border: 10px solid lightgreen;
+    border-radius: 0.75em;
     margin: 5px;
     padding: 50px;
     background-color: lightgray;
@@ -17,6 +18,7 @@
 .container {
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
 }
 
 .blue_box, .red_box {
@@ -26,14 +28,17 @@
 
 .red_box {
     border: 10px solid red;
+    border-radius: 0.75em;
 }
 
 .blue_box {
     border: 10px solid blue;
+    border-radius: 0.75em;
 }
 
 .purple_box {
     border: 10px solid purple;
+    border-radius: 0.75em;
     margin: 3px 10px;
 }
 
@@ -43,6 +48,31 @@
 
 .yellow_box {
     border: 10px solid yellow;
+    border-radius: 0.75em;
     margin: 8px 10px;
     height: 87%;
+}
+
+.forms {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mb-3 {
+    width: 50%;
+}
+
+.input_btn {
+    width: 50%;
+}
+
+.desc_textarea {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.desc_textarea label {
+    margin-bottom: 10px;
 }
